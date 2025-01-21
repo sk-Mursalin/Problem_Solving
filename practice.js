@@ -557,3 +557,16 @@ const head = document.querySelector(".heading");
 // }
 
 // b(...arr);
+const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
+const url = `https://youtube.googleapis.com/youtube/v3/playlists?part=snippet%2CcontentDetails&channelId=UCbK5xfFYH99Hu2pl4CBarNg&maxResults=25&key=${GOOGLE_API_KEY}`
+
+async function fetchData(){
+    let response = await fetch(url);
+    console.log(response);
+    let result  = await response.json()
+    console.log(result)
+}
+
+fetchData()
+
+// GET https://youtube.googleapis.com/youtube/v3/playlists?part=snippet%2CcontentDetails&channelId=UC_x5XG1OV2P6uZZ5FSM9Ttw&maxResults=25&key=[YOUR_API_KEY]
