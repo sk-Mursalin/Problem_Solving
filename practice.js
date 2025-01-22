@@ -558,7 +558,7 @@ const head = document.querySelector(".heading");
 
 // b(...arr);
 const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
-const url = `https://youtube.googleapis.com/youtube/v3/playlists?part=snippet%2CcontentDetails&channelId=UCbK5xfFYH99Hu2pl4CBarNg&maxResults=25&key=${GOOGLE_API_KEY}`
+const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=PLfEr2kn3s-bpXj_TMONjRwasyjiFgEwj0&key=${GOOGLE_API_KEY}`
 
 async function fetchData(){
     let response = await fetch(url);
@@ -569,4 +569,4 @@ async function fetchData(){
 
 fetchData()
 
-// GET https://youtube.googleapis.com/youtube/v3/playlists?part=snippet%2CcontentDetails&channelId=UC_x5XG1OV2P6uZZ5FSM9Ttw&maxResults=25&key=[YOUR_API_KEY]
+// https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=PLB03EA9545DD188C3
