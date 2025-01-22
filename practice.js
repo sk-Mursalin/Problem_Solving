@@ -577,3 +577,30 @@ const head = document.querySelector(".heading");
 // div.forEach((el)=>{
 //     console.log(el.children[0])
 // })
+
+// let a = 6;
+
+// console.log(a++)
+// console.log(++a)
+
+// let a = 5;
+// let b = 6;
+// let c = 8;
+// let f = 7
+// let z = 100
+
+// if((a ==5 &&b==6 || c==8&& f==2)||(z==200)){console.log("hello")}
+
+// let arr = [1,2,3,4,5]
+
+// let arr2 = arr.slice(0,2)
+// console.log(arr2,arr)
+
+// let a = [1,2,3,4,5]
+// // console.log(a.splice(3,1,10))
+// // console.log(a)
+
+// let c = a.map((el)=>{
+//     return ; 
+// })
+// console.log(c)
