@@ -597,10 +597,38 @@ const head = document.querySelector(".heading");
 // console.log(arr2,arr)
 
 // let a = [1,2,3,4,5]
-// // console.log(a.splice(3,1,10))
-// // console.log(a)
+// console.log(a.splice(3,1,10))
+// console.log(a)
 
 // let c = a.map((el)=>{
 //     return ; 
 // })
 // console.log(c)
+
+// let arr = [1,2,3,4,5]
+
+// let arr2 = arr.slice(0,2)
+// console.log(arr2,arr)
+
+// let a = [1,2,3,4,5]
+// console.log(a.splice(3,1,10))
+// console.log(a)
+
+// let c = a.map((el)=>{
+//     return ; 
+// })
+// console.log(c)
+
+// let arr = [1,2,3,4,5]
+
+// let arr2 = arr.slice(0,2)
+// console.log(arr2,arr)
+
+let a = [1,2,3,4,5]
+console.log(a.splice(3,1,10))
+console.log(a)
+
+let c = a.map((el)=>{
+    return ; 
+})
+console.log(c)
