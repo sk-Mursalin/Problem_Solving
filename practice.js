@@ -557,16 +557,23 @@ const head = document.querySelector(".heading");
 // }
 
 // b(...arr);
-const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
-const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=PLfEr2kn3s-bpXj_TMONjRwasyjiFgEwj0&key=${GOOGLE_API_KEY}`
+// const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
+// const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=PLfEr2kn3s-bpXj_TMONjRwasyjiFgEwj0&key=${GOOGLE_API_KEY}`
 
-async function fetchData(){
-    let response = await fetch(url);
-    console.log(response);
-    let result  = await response.json()
-    console.log(result)
-}
+// async function fetchData(){
+//     let response = await fetch(url);
+//     console.log(response);
+//     let result  = await response.json()
+//     console.log(result)
+// }
 
-fetchData()
+// fetchData()
 
 // https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=PLB03EA9545DD188C3
+
+// const div = document.querySelectorAll(".div");
+// console.log(div)
+
+// div.forEach((el)=>{
+//     console.log(el.children[0])
+// })
