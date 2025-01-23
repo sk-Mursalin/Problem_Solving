@@ -657,3 +657,20 @@ const head = document.querySelector(".heading");
 // let a = b(()=> 5)
 
 // console.log(a)
+
+
+// function b(c){
+//     return c()
+// }
+
+// let a = b(()=> 5)
+
+// console.log(a)
+
+// function b(c){
+//     return c()
+// }
+
+// let a = b(()=> 5)
+
+// console.log(a)
