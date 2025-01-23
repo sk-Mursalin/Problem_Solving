@@ -557,7 +557,7 @@ const head = document.querySelector(".heading");
 // }
 
 // b(...arr);
-// const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
+const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
 // const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=PLfEr2kn3s-bpXj_TMONjRwasyjiFgEwj0&key=${GOOGLE_API_KEY}`
 
 // async function fetchData(){
@@ -674,3 +674,12 @@ const head = document.querySelector(".heading");
 // let a = b(()=> 5)
 
 // console.log(a)
+
+
+async function dataFetch(){
+    const response =  await fetch(`https://www.googleapis.com/youtube/v3/videos?part=statistics&id=RdkoOdZYNGw&key=${GOOGLE_API_KEY}`)
+
+    const result  =  await response.json()
+    console.log(result);
+}
+dataFetch()
