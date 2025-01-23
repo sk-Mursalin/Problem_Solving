@@ -638,3 +638,22 @@ const head = document.querySelector(".heading");
 // }
 
 // console.log(obj["my-name"])
+// a()
+// var a = function(){
+//     console.log("hello")
+// }
+// function a(){
+//     console.log(b)
+//     let b = 5
+// }
+// a()
+
+
+
+// function b(c){
+//     return c()
+// }
+
+// let a = b(()=> 5)
+
+// console.log(a)
