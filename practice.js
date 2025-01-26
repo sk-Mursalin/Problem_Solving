@@ -557,7 +557,7 @@ const head = document.querySelector(".heading");
 // }
 
 // b(...arr);
-const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
+// const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
 // const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=PLfEr2kn3s-bpXj_TMONjRwasyjiFgEwj0&key=${GOOGLE_API_KEY}`
 
 // async function fetchData(){
@@ -698,3 +698,50 @@ const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
 
 // let b = a.replace(/\s+/g,"/")
 // console.log(b)
+
+// console.log( new URLSearchParams)
+
+// let flag = true;
+
+// function a(){
+//     console.log("hello")
+//     flag = false
+//     setTimeout(()=>{
+//         flag = true
+//         console.log(flag)
+//     },500)
+// }
+
+// if(flag){
+//     console.log(flag)
+//     a();
+// }
+
+// console.log(flag)
+
+
+
+// let a = "sk mursalin";
+
+// let b = {
+//     name:"sk"
+// }
+
+// let b = document.querySelector(".heading");
+
+// function a(){
+//     b.style.color = "red"
+// }
+
+// a()
+
+// let a = "mursalin"
+// let b = null
+
+// function a(c){
+//     return function(b){
+//         console.log(c*b)
+//     }
+// }
+
+// console.log(a(5)(2));
