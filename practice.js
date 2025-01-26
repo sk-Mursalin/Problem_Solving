@@ -676,10 +676,25 @@ const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
 // console.log(a)
 
 
-async function dataFetch(){
-    const response =  await fetch(`https://www.googleapis.com/youtube/v3/videos?part=statistics&id=RdkoOdZYNGw&key=${GOOGLE_API_KEY}`)
+// async function dataFetch(){
+//     const response =  await fetch(`https://www.googleapis.com/youtube/v3/videos?part=statistics&id=RdkoOdZYNGw,OhT_HruW6dM&key=${GOOGLE_API_KEY}`)
 
-    const result  =  await response.json()
-    console.log(result);
-}
-dataFetch()
+//     const result  =  await response.json()
+//     console.log(result);
+// }
+// dataFetch()
+
+// let arr = [1,2,3,4,10,20]
+// let arr2 = arr.filter((el)=>el%2 == 0)
+// console.log(arr2)
+
+// let d = (c)=>{
+//     let b = c.join(",");
+//     console.log(b)
+// }
+// d(arr2)
+
+// let a = "hi    i am sk sani";
+
+// let b = a.replace(/\s+/g,"/")
+// console.log(b)
