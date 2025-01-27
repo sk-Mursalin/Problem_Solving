@@ -746,3 +746,20 @@ const head = document.querySelector(".heading");
 
 // console.log(a(5)(2));
 
+    // const  handleSubmit = (e)=>{
+    //     console.log(e)
+    // }
+      
+    // let a = [
+    //     {
+    //         name:"skk"
+    //     }
+    // ]
+
+    // let c = {
+    //     age:23
+    // }
+
+    // let b = [ ...a,{...c,id:56565}]
+
+    // console.log(b)
