@@ -745,3 +745,4 @@ const head = document.querySelector(".heading");
 // }
 
 // console.log(a(5)(2));
+
