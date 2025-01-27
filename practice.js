@@ -763,3 +763,19 @@ const head = document.querySelector(".heading");
     // let b = [ ...a,{...c,id:56565}]
 
     // console.log(b)
+
+    // let arr = [2,6,8,9,7];
+
+    // for(const a of arr){
+    //     console.log(a)
+    // }
+
+    // let a = {
+    //     name:"sk",
+    //     city:"kolkata"
+    // }
+
+    // head.addEventListener("click",()=>{
+    //     const b ={...a,city:"mumbai"}
+    //     console.log(b)
+    // })
