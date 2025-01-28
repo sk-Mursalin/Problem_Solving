@@ -152,17 +152,27 @@
         height: 200px;
         border-radius: 50%;
         border: 2px solid black;
+        transition: all;
         animation: curve 10s ease-in-out infinite  ;
        }
 
        @keyframes curve{
+
+        0%{
+          border-top-left-radius: 110px;
+        }
+
         20%{
-          border-top-left-radius: 50px;
+          border-top-right-radius: 300px;
         }
         50%{
-          border-top-right-radius: 150px;
+          border-bottom-right-radius: 300px;
         }
+        70%{
+          border-top-left-radius: 100px;
+        }
+
         100%{
-          border-bottom-right-radius: 30px;
+          border-top-right-radius: 300px;
         }
        }
