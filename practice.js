@@ -779,3 +779,5 @@ const head = document.querySelector(".heading");
     //     const b ={...a,city:"mumbai"}
     //     console.log(b)
     // })
+
+    

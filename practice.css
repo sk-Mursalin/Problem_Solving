@@ -102,12 +102,12 @@
     }
   }  */
 
-  .circular-text {
+  /* .circular-text {
     position: relative;
     width: 200px;
     height: 200px;
-    border: 2px solid #000; /* Optional: For a visible circle */
-    border-radius: 50%; /* Makes the boundary circular */
+    border: 2px solid #000; 
+    border-radius: 50%; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,4 +144,25 @@
       }
 
 
-      
+       */
+
+       .parent{
+        margin:  0 auto;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 2px solid black;
+        animation: curve 10s ease-in-out infinite  ;
+       }
+
+       @keyframes curve{
+        20%{
+          border-top-left-radius: 50px;
+        }
+        50%{
+          border-top-right-radius: 150px;
+        }
+        100%{
+          border-bottom-right-radius: 30px;
+        }
+       }
