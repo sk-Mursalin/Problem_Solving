@@ -676,7 +676,7 @@ const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
 // console.log(a)
 
 // https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&q=YOURKEYWORD&type=video&key=YOURAPIKEY
-let a = 20;
+let a = 80;
 async function dataFetch(){
     const response =  await fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=${a}&q=islamic&type=video&key=${GOOGLE_API_KEY}`)
 
@@ -687,10 +687,17 @@ async function dataFetch(){
 
 dataFetch()
 
-window.addEventListener("scrollend",()=>{
-    a +=40;
+// window.addEventListener("scrollend",()=>{
+//     a +=40;
+//    dataFetch()
+// })
+
+window.onscrollend = ()=>{
+    a+= 10;
     console.log(a)
-})
+    dataFetch()
+
+}
 
 
 
