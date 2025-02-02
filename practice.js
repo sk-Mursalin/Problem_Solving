@@ -676,28 +676,32 @@ const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
 // console.log(a)
 
 // https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&q=YOURKEYWORD&type=video&key=YOURAPIKEY
-let a = 80;
-async function dataFetch(){
-    const response =  await fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=${a}&q=islamic&type=video&key=${GOOGLE_API_KEY}`)
 
-    const result  =  await response.json()
-    console.log(result);
-    
-}
+// async function dataFetch( a,page){
+//     const response =  await fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=${a}&pageToken=${page}&q=islamic&type=video&key=${GOOGLE_API_KEY}`)
 
-dataFetch()
+//     const result  =  await response.json()
+//     console.log(result);
+//     return result.nextPageToken
+// }
+// let a = 20;
+//   async function d(){
+//     const page= await dataFetch(a,"CBQQAA");
+//     return page 
+//  }
+
 
 // window.addEventListener("scrollend",()=>{
 //     a +=40;
 //    dataFetch()
 // })
 
-window.onscrollend = ()=>{
-    a+= 10;
-    console.log(a)
-    dataFetch()
+// window.onscrollend = ()=>{
+//   let b = 40
+//     console.log(a)
+//     dataFetch(b)
 
-}
+// }
 
 
 
