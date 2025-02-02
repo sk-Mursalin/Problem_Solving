@@ -821,23 +821,25 @@ const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
     // let arr = Object.keys(a);
     // console.log(arr);
 
-    let name  = "leetcode"
-    let array = name.split("");
+    // let name  = "leetcode"
+    // let array = [...name];
 
-    let obj = array.reduce((accm,el)=>{
+    // let obj = array.reduce((accm,el)=>{
 
-        if(accm[el]){
-            accm[el] = ++accm[el]
-        }else{
-            accm[el] = 1
-        }
+    //     if(accm[el]){
+    //         accm[el] = ++accm[el]
+    //     }else{
+    //         accm[el] = 1
+    //     }
 
-        return accm
-    },{})
+    //     return accm
+    // },{})
 
-    console.log(obj)
+    // let c= array.filter((el)=> obj[el] === 1);
+    // console.log(array.indexOf(c[0]))
 
 
-  
+ 
 
+    
     
