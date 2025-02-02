@@ -557,7 +557,7 @@ const head = document.querySelector(".heading");
 // }
 
 // b(...arr);
-// const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
+const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
 // const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=PLfEr2kn3s-bpXj_TMONjRwasyjiFgEwj0&key=${GOOGLE_API_KEY}`
 
 // async function fetchData(){
@@ -675,14 +675,24 @@ const head = document.querySelector(".heading");
 
 // console.log(a)
 
+// https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&q=YOURKEYWORD&type=video&key=YOURAPIKEY
+let a = 20;
+async function dataFetch(){
+    const response =  await fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=${a}&q=islamic&type=video&key=${GOOGLE_API_KEY}`)
 
-// async function dataFetch(){
-//     const response =  await fetch(`https://www.googleapis.com/youtube/v3/videos?part=statistics&id=RdkoOdZYNGw,OhT_HruW6dM&key=${GOOGLE_API_KEY}`)
+    const result  =  await response.json()
+    console.log(result);
+    
+}
 
-//     const result  =  await response.json()
-//     console.log(result);
-// }
-// dataFetch()
+dataFetch()
+
+window.addEventListener("scrollend",()=>{
+    a +=40;
+    console.log(a)
+})
+
+
 
 // let arr = [1,2,3,4,10,20]
 // let arr2 = arr.filter((el)=>el%2 == 0)
@@ -780,4 +790,11 @@ const head = document.querySelector(".heading");
     //     console.log(b)
     // })
 
-    
+    // let a = [1,2,3];
+    // console.log(...a)
+    // function b(...num){
+    //     console.log(num)
+    //     console.log(arguments)
+    // }
+
+    // b(...a)
