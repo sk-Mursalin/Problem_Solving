@@ -839,7 +839,33 @@ const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
     // console.log(array.indexOf(c[0]))
 
 
- 
+//     function a(b,c){
+//          b = 2
+//          c = 4
+//         console.log(arguments)
+//     }
 
-    
+//    a(4,5)
+
+
+// let a = {
+//     name:"sk",
+//     age:23
+// }
+
+// let b = {}
+
+// Object.assign(b,a)
+
+// console.log(b===a)
+
+
+
+// let b = Object.assign(a)
+// b.city= "kolkata"
+// console.log(b)
+// console.log(a)
+
+    // let b = Array.from("name")
+    // console.log(b)
     
