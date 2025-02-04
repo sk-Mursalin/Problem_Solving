@@ -378,7 +378,7 @@
 //         return "hi"
 //     }
 //     console
-    
+
 // }
 
 // console.log(b());
@@ -442,7 +442,7 @@
 //             b()
 //         },timer)
 //     }
-   
+
 // }
 // const thortt = a(fetchData,5000);
 
@@ -525,7 +525,7 @@ const head = document.querySelector(".heading");
 
 // function b(){
 //     return new Promise((res,rej)=>{
-       
+
 //     })
 // }
 
@@ -767,76 +767,76 @@ const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
 
 // console.log(a(5)(2));
 
-    // const  handleSubmit = (e)=>{
-    //     console.log(e)
-    // }
-      
-    // let a = [
-    //     {
-    //         name:"skk"
-    //     }
-    // ]
+// const  handleSubmit = (e)=>{
+//     console.log(e)
+// }
 
-    // let c = {
-    //     age:23
-    // }
+// let a = [
+//     {
+//         name:"skk"
+//     }
+// ]
 
-    // let b = [ ...a,{...c,id:56565}]
+// let c = {
+//     age:23
+// }
 
-    // console.log(b)
+// let b = [ ...a,{...c,id:56565}]
 
-    // let arr = [2,6,8,9,7];
+// console.log(b)
 
-    // for(const a of arr){
-    //     console.log(a)
-    // }
+// let arr = [2,6,8,9,7];
 
-    // let a = {
-    //     name:"sk",
-    //     city:"kolkata"
-    // }
+// for(const a of arr){
+//     console.log(a)
+// }
 
-    // head.addEventListener("click",()=>{
-    //     const b ={...a,city:"mumbai"}
-    //     console.log(b)
-    // })
+// let a = {
+//     name:"sk",
+//     city:"kolkata"
+// }
 
-    // let a = [1,2,3];
-    // console.log(...a)
-    // function b(...num){
-    //     console.log(num)
-    //     console.log(arguments)
-    // }
+// head.addEventListener("click",()=>{
+//     const b ={...a,city:"mumbai"}
+//     console.log(b)
+// })
 
-    // b(...a)
+// let a = [1,2,3];
+// console.log(...a)
+// function b(...num){
+//     console.log(num)
+//     console.log(arguments)
+// }
 
-    // let a = {
-    //     l : 2,
-    //     m : 3,
-    //     c : 4 
-    // }
+// b(...a)
 
-    // console.log(Array.from(a))
+// let a = {
+//     l : 2,
+//     m : 3,
+//     c : 4 
+// }
 
-    // let arr = Object.keys(a);
-    // console.log(arr);
+// console.log(Array.from(a))
 
-    // let name  = "leetcode"
-    // let array = [...name];
+// let arr = Object.keys(a);
+// console.log(arr);
 
-    // let obj = array.reduce((accm,el)=>{
+// let name  = "leetcode"
+// let array = [...name];
 
-    //     if(accm[el]){
-    //         accm[el] = ++accm[el]
-    //     }else{
-    //         accm[el] = 1
-    //     }
+// let obj = array.reduce((accm,el)=>{
 
-    //     return accm
-    // },{})
+//     if(accm[el]){
+//         accm[el] = ++accm[el]
+//     }else{
+//         accm[el] = 1
+//     }
 
-    // let c= array.filter((el)=> obj[el] === 1);
-    // console.log(array.indexOf(c[0]))
+//     return accm
+// },{})
+
+// let c= array.filter((el)=> obj[el] === 1);
+// console.log(array.indexOf(c[0]))
 
 
 //     function a(b,c){
@@ -866,6 +866,34 @@ const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
 // console.log(b)
 // console.log(a)
 
-    // let b = Array.from("name")
-    // console.log(b)
-    
+// let b = Array.from("name")
+// console.log(b)
+
+let reduxState = {
+    post: 0,
+    name: "sk Mursalin",
+    age: 23
+}
+
+function reducer(state, action) {
+    if (action.type === "post/increment") {
+        return { ...state, post: state.post+1 }
+    }
+    else if(action.type === "post/decrement"){
+        return {...state , post: state.post-1}
+    }
+    else if(action.type == "post/incrementBy"){
+        return {...state, post: state.post + action.payLoad}
+    }
+    return state
+}
+
+reduxState = reducer(reduxState, {type:"post/increment"})
+console.log(reduxState)
+reduxState = reducer(reduxState, {type:"post/decrement"})
+console.log(reduxState)
+reduxState = reducer(reduxState , {type:"post/incrementBy",payLoad : 10});
+console.log(reduxState)
+
+
+
