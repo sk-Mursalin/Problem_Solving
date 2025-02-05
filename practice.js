@@ -896,18 +896,18 @@ reduxState = reducer(reduxState , {type:"post/incrementBy",payLoad : 10});
 console.log(reduxState)
 
 
-// let arr1 = [1,4,6]
-// let arr2 = [3,2,5]
+let arr1 = [1,4,6]
+let arr2 = [3,2,5]
 
-// let mergeArray = [...arr1, ...arr2]
-// console.log(mergeArray);
+let mergeArray = [...arr1, ...arr2]
+console.log(mergeArray);
 
 
-// let newArray = [];
-// for(let i = 0; i< mergeArray.length; i++){
-//     if(mergeArray[i] - mergeArray[i+1] != -1){
-//         newArray.push(mergeArray[i]);
-//     }
-// }
+let newArray = [];
+for(let i = 0; i< mergeArray.length; i++){
+    if(mergeArray[i] - mergeArray[i+1] != -1){
+        newArray.push(mergeArray[i]);
+    }
+}
 
-// console.log(newArray)
+console.log(newArray)
