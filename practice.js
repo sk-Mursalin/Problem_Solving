@@ -896,28 +896,31 @@ reduxState = reducer(reduxState, { type: "post/incrementBy", payLoad: 10 });
 console.log(reduxState)
 
 
-let arr1 = [1, 3, 5]
-let arr2 = [2, 4, 6]
+// let arr1 = [1, 3, 5]
+// let arr2 = [2, 4, 6]
 
-let mergeArray = [];
+// let mergeArray = [];
 
-function result() {
-    for (let i = 0; i < arr1.length; i++) {
-        for (let j = 0; j < arr2.length; j++) {
-            if (arr1[i] - arr2[j] == -1) {
-                mergeArray.push(arr1[i], arr2[j])
-            } else if(arr1[i] - arr2[j] == 1 && mergeArray.includes(arr1[i],arr2[j])== true){
-                mergeArray.push(arr2[j],arr1[i])
-            }
-        }
-    }
-    return mergeArray;
-}
-
-console.log(result())
-
-// for(let i =0; i<10; i++){
-//    for(let j = 0; j<10;)
+// function result() {
+//     for (let i = 0; i < arr1.length; i++) {
+//         for (let j = 0; j < arr2.length; j++) {
+//             if (arr1[i] - arr2[j] == -1) {
+//                 mergeArray.push(arr1[i], arr2[j])
+//             } else if(arr1[i] - arr2[j] == 1 && mergeArray.includes(arr1[i],arr2[j])== true){
+//                 mergeArray.push(arr2[j],arr1[i])
+//             }
+//         }
+//     }
+//     return mergeArray;
 // }
 
-// console.log(arr1.indexOf(1,3))
+// console.log(result())
+
+// let a = [1,3,5,6]
+
+// let result = a.some((el)=>{
+//     debugger
+//     return el%2 === 0
+// })
+
+// console.log(result)
