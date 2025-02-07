@@ -926,3 +926,13 @@ const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
 // Object.keys(obj).forEach((key)=>{
 //     console.log(obj[key])
 // })
+
+
+const text = "The quick brown fox jumps over the lazy dog";
+
+function result(text){
+   const array = text.split(" ")
+   console.log(array)
+}
+
+result(text)
