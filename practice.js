@@ -869,43 +869,60 @@ const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
 // let b = Array.from("name")
 // console.log(b)
 
-let reduxState = {
-    post: 0,
-    name: "sk Mursalin",
-    age: 23
-}
+// let reduxState = {
+//     post: 0,
+//     name: "sk Mursalin",
+//     age: 23
+// }
 
-function reducer(state, action) {
-    if (action.type === "post/increment") {
-        return { ...state, post: state.post + 1 }
-    }
-    else if (action.type === "post/decrement") {
-        return { ...state, post: state.post - 1 }
-    }
-    else if (action.type == "post/incrementBy") {
-        return { ...state, post: state.post + action.payLoad }
-    }
-    return state
-}
+// function reducer(state, action) {
+//     if (action.type === "post/increment") {
+//         return { ...state, post: state.post + 1 }
+//     }
+//     else if (action.type === "post/decrement") {
+//         return { ...state, post: state.post - 1 }
+//     }
+//     else if (action.type == "post/incrementBy") {
+//         return { ...state, post: state.post + action.payLoad }
+//     }
+//     return state
+// }
 
-reduxState = reducer(reduxState, { type: "post/increment" })
-console.log(reduxState)
-reduxState = reducer(reduxState, { type: "post/decrement" })
-console.log(reduxState)
-reduxState = reducer(reduxState, { type: "post/incrementBy", payLoad: 10 });
-console.log(reduxState)
+// reduxState = reducer(reduxState, { type: "post/increment" })
+// console.log(reduxState)
+// reduxState = reducer(reduxState, { type: "post/decrement" })
+// console.log(reduxState)
+// reduxState = reducer(reduxState, { type: "post/incrementBy", payLoad: 10 });
+// console.log(reduxState)
 
 
-let arr1 = [1,5,7]
-let arr2 = [2, 3, 4,6]
+// let arr1 = [1,5,7]
+// let arr2 = [2, 3, 4,6]
 
-let i = 0;
+// let i = 0;
 
-for(; i<arr1.length && i< arr2.length; ){
-    console.log(arr1[i++]);
+// for(; i<arr1.length && i< arr2.length; ){
+//     console.log(arr1[i++]);
     
  
-}
+// }
 
-console.log(document.documentElement.scrollHeight)
-console.log(window.innerHeight)
+// console.log(document.documentElement.scrollHeight)
+// console.log(window.innerHeight)
+
+// let obj = {
+//     name:"mursalin",
+//     age:23
+// }
+
+// console.log(Object.entries(obj))
+// Object.entries(obj).forEach(([key,value])=>{
+//     console.log(key)
+   
+
+// })
+
+
+// Object.keys(obj).forEach((key)=>{
+//     console.log(obj[key])
+// })
