@@ -907,3 +907,5 @@ for(; i<arr1.length && i< arr2.length; ){
  
 }
 
+console.log(document.documentElement.scrollHeight)
+console.log(window.innerHeight)
