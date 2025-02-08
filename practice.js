@@ -928,11 +928,13 @@ const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
 // })
 
 
-const text = "The quick brown fox jumps over the lazy dog";
+// const text = "The quick brown fox jumps over the lazy dog";
 
-function result(text){
-   const array = text.split(" ")
-   console.log(array)
-}
+// function result(text){
+//    const array = text.split(" ")
+//    console.log(array)
+// }
 
-result(text)
+// result(text)
+
+
