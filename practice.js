@@ -938,3 +938,11 @@ const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
 // result(text)
 
 
+// document.querySelector(".heading").addEventListener("click",(e)=>{console.log(e)})
+
+// let arr = [1,2,3,4,5]
+
+
+// const arr2  = arr.filter((el)=> el !==5)
+
+// console.log(arr2)
