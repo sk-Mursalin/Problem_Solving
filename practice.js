@@ -943,7 +943,7 @@ const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
 let arr = [1,2,3,4,5]
 
 
- arr.filter((el)=> el !==5);
+ setexpance(arr.filter((el)=> el !==5));
 
 
 
