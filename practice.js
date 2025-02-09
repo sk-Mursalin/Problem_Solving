@@ -928,14 +928,23 @@ const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
 // })
 
 
-// const text = "The quick brown fox jumps over the lazy dog";
+// const text = "JavaScript is awesome";
 
 // function result(text){
-//    const array = text.split(" ")
-//    console.log(array)
+// //    let updatedArray = [];
+//    let result = ""
+//    const array = text.split(" ");
+
+//    for(let i = 0; i<array.length; i++){
+//     if(array[i].length > result.length){
+//         result = array[i]
+//     }
+//    }
+//    return result
+   
 // }
 
-// result(text)
+// console.log(result(text))
 
 
 // document.querySelector(".heading").addEventListener("click",(e)=>{console.log(e)})
