@@ -940,10 +940,16 @@ const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
 
 // document.querySelector(".heading").addEventListener("click",(e)=>{console.log(e)})
 
-let arr = [1,2,3,4,5]
+// let arr = [1,2,3,4,5]
 
 
- setexpance(arr.filter((el)=> el !==5));
+//  setexpance(arr.filter((el)=> el !==5));
 
 
+
+// let arr = [1,2,3,4,5,6]
+
+// let result = arr.find((el)=> el>4)
+
+// console.log(result)
 
