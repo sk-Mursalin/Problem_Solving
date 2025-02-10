@@ -962,3 +962,10 @@ const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
 
 // console.log(result)
 
+
+// const a =[1,2,3,4]
+
+// a.sort(()=> {return})
+
+// console.log(a)
+
