@@ -969,3 +969,10 @@ const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
 
 // console.log(a)
 
+// let str= "h e llo"
+
+// console.log(str.replace(/\s+/g,""));
+
+// let arr= [10, 5, 8, 20, 15];
+
+
