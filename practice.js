@@ -977,3 +977,17 @@
 // let arr= [10, 5, 8, 20, 15];
 
 
+// const arr = [5,4,8,9,-1,-2,-8]
+
+// let num = 0 ; 
+
+// for(let i =0; i<arr.length; i++){
+//     if(arr[i] < num){
+//         num = arr[i]
+//     }
+// }
+
+// console.log(num)
+
+
+
