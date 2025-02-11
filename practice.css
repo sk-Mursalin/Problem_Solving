@@ -176,3 +176,21 @@
           border-top-right-radius: 300px;
         }
        }
+
+       .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        gap: 10px;
+        width: 200px;
+        border: 2px solid black;
+      }
+      
+      .container div {
+        width: 80px;
+        height: 50px;
+        background: lightblue;
+        text-align: center;
+        line-height: 50px;
+      }
+      
