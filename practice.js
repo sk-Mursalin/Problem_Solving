@@ -904,8 +904,8 @@
 
 // for(; i<arr1.length && i< arr2.length; ){
 //     console.log(arr1[i++]);
-    
- 
+
+
 // }
 
 // console.log(document.documentElement.scrollHeight)
@@ -919,7 +919,7 @@
 // console.log(Object.entries(obj))
 // Object.entries(obj).forEach(([key,value])=>{
 //     console.log(key)
-   
+
 
 // })
 
@@ -942,7 +942,7 @@
 //     }
 //    }
 //    return result
-   
+
 // }
 
 // console.log(result(text))
@@ -1000,10 +1000,35 @@
 // console.log(arr2)
 // console.log(arr)
 
-let a= [1,2,3,4]
+// let a= [1,2,3,4]
 
-for(let el of a ){
-    console.log(el)
+// for(let el of a ){
+//     console.log(el)
+// }
+
+const input = document.querySelector(".input");
+
+function fetchData() {
+    console.log("data fetch")
 }
 
+input.addEventListener("input", () => {
+    betterFunction()
+});
+
+
+const debouncing = function (fn, time) {
+    let flag = true
+    return function () {
+        if (flag) {
+            fn()
+            flag = false
+        }
+        setTimeout(() => {
+            flag = true
+        }, time)
+    }
+}
+
+let betterFunction = debouncing(fetchData, 2000)
 
