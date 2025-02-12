@@ -1006,29 +1006,41 @@
 //     console.log(el)
 // }
 
-const input = document.querySelector(".input");
+// const input = document.querySelector(".input");
 
-function fetchData() {
-    console.log("data fetch")
-}
+// function fetchData() {
+//     console.log("data fetch")
+// }
 
-input.addEventListener("input", () => {
-    betterFunction()
-});
+// input.addEventListener("input", () => {
+//     betterFunction()
+// });
 
 
-const debouncing = function (fn, time) {
-    let flag = true
-    return function () {
-        if (flag) {
-            fn()
-            flag = false
-        }
-        setTimeout(() => {
-            flag = true
-        }, time)
-    }
-}
+// const debouncing = function (fn, time) {
+//     let flag = true
+//     return function () {
+//         if (flag) {
+//             fn()
+//             flag = false
+//         }
+//         setTimeout(() => {
+//             flag = true
+//         }, time)
+//     }
+// }
 
-let betterFunction = debouncing(fetchData, 2000)
+// let betterFunction = debouncing(fetchData, 2000)
 
+
+// function a(x){
+//     return function(y){
+//        return function(z){
+//         console.log(x*y*z)
+//        }
+//     }
+// }
+
+//    const b = a(5);
+//    const c = b(6)
+//    c(5)
