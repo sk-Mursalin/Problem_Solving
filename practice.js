@@ -989,15 +989,21 @@
 
 // console.log(num)
 
-let str = "hello"
+// let str = "hello"
 
-let str2 = (str.indexOf("o"));
-console.log(str2)
+// let str2 = (str.indexOf("o"));
+// console.log(str2)
 
-let arr = [1,2,3,9,10,11,12];
+// let arr = [1,2,3,9,10,11,12];
 
-let arr2 = arr.splice(0,4)
-console.log(arr2)
-console.log(arr)
+// let arr2 = arr.splice(0,4)
+// console.log(arr2)
+// console.log(arr)
+
+let a= [1,2,3,4]
+
+for(let el of a ){
+    console.log(el)
+}
 
 
