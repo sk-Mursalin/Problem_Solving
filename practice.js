@@ -1087,3 +1087,18 @@
 // testFunction()
 
 // console.log(navigator.geolocation.getCurrentPosition())
+
+
+// let names = ["Mursalin khan","ibrahima Molla"];
+// function a(){
+//     for(let i =0; i<names.length; i++ ){
+//         names[i]= "sk "+names[i].slice(12)
+//     }
+//     return names    
+// }
+
+// console.log(a())
+
+// let arr= ["mursalin"]
+
+// console.log(arr[0]+" sk")
