@@ -211,22 +211,23 @@
 // nextColor()
 
 
-// function saveData(success,fail){
-//     let internetSpeed  = Math.floor(Math.random()*10)+1;
+// function saveData(success, fail) {
+//     let internetSpeed = Math.floor(Math.random() * 10) + 1;
 //     console.log(internetSpeed)
-//     if(internetSpeed>6){
+//     if (internetSpeed > 6) {
 //         success()
 //     }
-//     else{
+//     else {
 //         fail()
 //     }
 // }
 
-// saveData(()=>{console.log("data 1 is saved")
-//     saveData(()=>{
+// saveData(() => {
+//     console.log("data 1 is saved")
+//     saveData(() => {
 //         console.log("data2 is saved")
-//     },()=>{console.log("data2 is not saved")})
-// },()=>{console.log("data 1 is not saved ")})
+//     }, () => { console.log("data2 is not saved") })
+// }, () => { console.log("data 1 is not saved ") })
 
 
 // function closure(){
@@ -602,7 +603,7 @@
 // console.log(a)
 
 // let c = a.map((el)=>{
-//     return ; 
+//     return ;
 // })
 // console.log(c)
 
@@ -616,7 +617,7 @@
 // console.log(a)
 
 // let c = a.map((el)=>{
-//     return ; 
+//     return ;
 // })
 // console.log(c)
 
@@ -630,7 +631,7 @@
 // console.log(a)
 
 // let c = a.map((el)=>{
-//     return ; 
+//     return ;
 // })
 // console.log(c)
 
@@ -688,7 +689,7 @@
 // let a = 20;
 //   async function d(){
 //     const page= await dataFetch(a,"CBQQAA");
-//     return page 
+//     return page
 //  }
 
 
@@ -814,7 +815,7 @@
 // let a = {
 //     l : 2,
 //     m : 3,
-//     c : 4 
+//     c : 4
 // }
 
 // console.log(Array.from(a))
@@ -979,7 +980,7 @@
 
 // const arr = [5,4,8,9,-1,-2,-8]
 
-// let num = 0 ; 
+// let num = 0 ;
 
 // for(let i =0; i<arr.length; i++){
 //     if(arr[i] < num){
@@ -1044,3 +1045,45 @@
 //    const b = a(5);
 //    const c = b(6)
 //    c(5)
+
+
+// let a = {
+//     name:"sk",
+//     age:23
+// }
+// const c ={
+//     city: "kllata"
+// }
+// console.log(c.city)
+// let b = {...a , ...c}
+
+// async function greet(){
+
+//     throw new Error ("404 not found")
+
+
+// }
+
+// greet()
+
+// .then((result)=>{
+//     console.log(result)
+// })
+// .catch((er)=>{
+//     console.log(er)
+// })
+
+// function testFunction() {
+//     try {
+//         console.log("hello");
+//         throw   ("Something went wrong!"); // Execution stops here
+//     }
+//     catch(er) {
+//     console.log(er)
+//     }
+
+// }
+
+// testFunction()
+
+// console.log(navigator.geolocation.getCurrentPosition())
