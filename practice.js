@@ -1086,4 +1086,4 @@
 
 // testFunction()
 
-console.log(navigator.geolocation.getCurrentPosition())
+// console.log(navigator.geolocation.getCurrentPosition())
