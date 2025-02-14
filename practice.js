@@ -1102,3 +1102,5 @@
 // let arr= ["mursalin"]
 
 // console.log(arr[0]+" sk")
+
+// console.log({} );
