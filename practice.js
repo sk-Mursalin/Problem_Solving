@@ -1104,3 +1104,7 @@
 // console.log(arr[0]+" sk")
 
 // console.log({} );
+
+// let a = "5"
+// console.log(a = parseInt(a))
+
