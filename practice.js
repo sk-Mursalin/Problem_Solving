@@ -1108,9 +1108,10 @@
 // let a = "5"
 // console.log(a = parseInt(a))
 
-let a = {
-    2:3,
-    5:4
-}
+// let a = {
+//     2:3,
+//     5:4
+// }
 
-console.log(a[2])
+// console.log(a[2])
+
