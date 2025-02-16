@@ -558,10 +558,11 @@
 // }
 
 // b(...arr);
+
+
 // const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
-// const url = `https://www.googleapis.com/youtube/v3/videos?part=contentDetails,snippet&id=M3nu9ftN1_Q&key=${GOOGLE_API_KEY}`
-// // https://www.googleapis.com/youtube/v3/videos?part=contentDetails,snippet&id=VIDEO_ID&key=YOUR_API_KEY
-// // M3nu9ftN1_Q
+// const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&videoCategoryId=10&regionCode=IN&key=${GOOGLE_API_KEY}`
+
 // async function fetchData(){
 //     let response = await fetch(url);
 //     console.log(response);
