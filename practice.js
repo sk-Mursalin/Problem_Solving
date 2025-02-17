@@ -1116,3 +1116,12 @@
 
 // console.log(a[2])
 
+// const heading = document.querySelector(".heading");
+
+// const btn = document.querySelector("button");
+
+// btn.addEventListener("click",()=>{
+//     heading.style.fontSize = "80px"
+// });
+
+
