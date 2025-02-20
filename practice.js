@@ -1123,18 +1123,26 @@
 // btn.addEventListener("click",()=>{
 //     heading.style.fontSize = "80px"
 // });
+// 
+// let arr = [3, 3, 4, 2, 3, 3, 3];
 
-let arr = [3, 3, 4, 2, 3, 3, 3];
+// let obj = arr.reduce((acc,curr)=>{
+//     if(acc[curr]){
+//         acc[curr] = ++acc[curr] 
+//     }else{
+//         acc[curr] = 1
+//     }
+//     return acc;
+// },{});
 
-let obj = arr.reduce((acc,curr)=>{
-    if(acc[curr]){
-        acc[curr] = ++acc[curr] 
-    }else{
-        acc[curr] = 1
-    }
-    return acc;
-},{});
+// let result = arr.filter((el)=> obj[el] == 5 )
+// console.log(obj)
+// console.log(result)
 
-let result = arr.filter((el)=> obj[el] == 5 )
-console.log(obj)
-console.log(result)
+
+// const file = document.querySelector("input");
+
+// file.addEventListener("change",(e)=>{
+//     console.log(e)
+// })
+
