@@ -1146,3 +1146,5 @@
 //     console.log(e)
 // })
 
+const a = ()=> console.log("hello")
+a()
