@@ -561,7 +561,11 @@
 
 
 // const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
-// const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&videoCategoryId=10&regionCode=IN&key=${GOOGLE_API_KEY}`
+// const url ="https://jsonplaceholder.typicode.com/users"
+
+
+
+
 
 // async function fetchData(){
 //     let response = await fetch(url);
@@ -1146,5 +1150,31 @@
 //     console.log(e)
 // })
 
-const a = ()=> console.log("hello")
-a()
+// const a = ()=> ("hello")
+// let b= a()
+// console.log(b)
+
+
+
+// function a(){
+//     let x = 5, z=6
+//     return function y(){
+//         console.log(x,z)
+//     }
+// }
+
+//  let y = a();
+//  y();
+
+// var a = 5;
+// var a = 6;
+
+// console.log(a)
+
+let b = {
+    a:function c(){
+        console.log("hello")
+    }
+}
+
+b.a()
