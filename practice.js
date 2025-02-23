@@ -561,11 +561,7 @@
 
 
 // const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
-// const url ="https://jsonplaceholder.typicode.com/users"
-
-
-
-
+// const url =`https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=50&q=react&key=${GOOGLE_API_KEY}`
 
 // async function fetchData(){
 //     let response = await fetch(url);
@@ -1178,3 +1174,4 @@ let b = {
 }
 
 b.a()
+
