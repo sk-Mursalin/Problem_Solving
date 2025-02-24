@@ -561,7 +561,7 @@
 
 
 // const GOOGLE_API_KEY = "AIzaSyCLFUOf_UB-gQVjqVkcnK72daM79-6xrac"
-// const url =`https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=50&q=react&key=${GOOGLE_API_KEY}`
+// const url =`https://youtube.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=50&regionCode=IN&key=${GOOGLE_API_KEY}`
 
 // async function fetchData(){
 //     let response = await fetch(url);
@@ -1167,11 +1167,77 @@
 
 // console.log(a)
 
-let b = {
-    a:function c(){
-        console.log("hello")
-    }
-}
+// let b = {
+//     a:function c(){
+//         console.log("hello")
+//     }
+// }
 
-b.a()
+// b.a()
 
+// let obj = {
+//     name:"sk",
+//     age:23
+// }
+
+// let b  = Object.assign(obj,{city:"klka"})
+// b.name= "sks"
+// console.log(b)
+// console.log(obj)
+
+// function a(){
+//     console.log("hi")
+// }
+
+// console.log(a.toString())
+
+// const p = new Promise((res,rej)=>{
+//     setTimeout(()=>{
+//         res("data is resolve")
+//     },2000)
+// });
+
+
+// const p2 = new Promise((res,rej)=>{
+//     setTimeout(()=>{
+//         res("data2 is resolve")
+//     },1000)
+// });
+
+
+
+// function result(){
+//     console.log("hello")
+//     p.then((data)=>{
+//        console.log(data)
+//     })
+    
+    
+
+//     p2.then((data)=>{
+//        return data
+       
+//     })
+// }
+
+// console.log(result())
+
+// async function result(){
+//     console.log("hell")
+//     const res = await p;
+//     console.log(res)
+//     console.log("byby")
+// }
+
+// result()
+
+// function b(){
+//     return "hello"
+// }
+
+
+// function a(){
+//      return b()
+// }
+
+// console.log(a())
