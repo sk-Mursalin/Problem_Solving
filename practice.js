@@ -1231,13 +1231,13 @@
 
 // result()
 
-// function b(){
-//     return "hello"
-// }
+function b(){
+    return "hello"
+}
 
 
-// function a(){
-//      return b()
-// }
+function a(){
+     return b()
+}
 
-// console.log(a())
+console.log(a())
