@@ -1249,3 +1249,18 @@
 // const res = a()
 
 // console.log(res)
+
+// const person = {
+//     firstName: 'Surbhi',
+//   };
+//   const { lastName="dighe" } = person;
+//   console.log(person);
+
+
+
+// var  foo = null
+// console.log(foo)
+
+
+
+
