@@ -1140,11 +1140,11 @@
 // console.log(result)
 
 
-// const file = document.querySelector("input");
+const file = document.querySelector("input");
 
-// file.addEventListener("change",(e)=>{
-//     console.log(e)
-// })
+file.addEventListener("change",(e)=>{
+    console.log(e)
+})
 
 // const a = ()=> ("hello")
 // let b= a()
@@ -1264,3 +1264,4 @@
 
 
 
+// console.log([] == 5)
