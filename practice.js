@@ -1265,3 +1265,11 @@ file.addEventListener("change",(e)=>{
 
 
 // console.log([] == 5)
+
+// function a(){
+//     return [1,2]
+// }
+
+// const b = new a();
+
+// console.log(b)
