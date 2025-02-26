@@ -194,4 +194,10 @@
         line-height: 50px;
    
       }
+      div > h1{
+        color: red;
+      }
       
+      p:nth-of-type(2){
+        color: rebeccapurple;
+      }

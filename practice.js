@@ -1,4 +1,3 @@
-
 //  let a=6;
 // if(a==5){
 //     console.log("pass");
@@ -1142,7 +1141,7 @@
 
 const file = document.querySelector("input");
 
-file.addEventListener("change",(e)=>{
+file.addEventListener("change", (e) => {
     console.log(e)
 })
 
@@ -1211,12 +1210,12 @@ file.addEventListener("change",(e)=>{
 //     p.then((data)=>{
 //        console.log(data)
 //     })
-    
-    
+
+
 
 //     p2.then((data)=>{
 //        return data
-       
+
 //     })
 // }
 
@@ -1273,3 +1272,68 @@ file.addEventListener("change",(e)=>{
 // const b = new a();
 
 // console.log(b)
+// function bark() {
+//     name:()=>{
+//         console.log("hello")
+//     }
+//   }
+
+// //   bark.animal = 'dog';
+//   bark.b = function(){
+//     console.log("hi")
+//   }
+
+//   bark.b();
+
+//   let a ="5"
+//  a.toString();
+//   console.log(typeof a )
+//   console.log(bark.toString())
+
+// function getPersonInfo(one, two, three) {
+//     console.log(one);
+//     console.log(two);
+//     console.log(three);
+//   }
+
+//   const person = 'Lydia';
+//   const age = 21;
+
+//   getPersonInfo`${person} is ${age} years old`;
+
+
+// function a() {
+//     x = 2;
+    
+//     console.log(x)
+// }
+// a()
+
+// const a = {};
+// const b = { key: 'b' };
+// const c = { key: 'c' };
+
+// a[b] = 123;
+// a[c] = 456;
+
+// console.log(a)
+
+// console.log(!)
+
+// let arr = [1,2,3]
+
+// let a = arr.map((el)=>{return})
+// console.log(a)
+
+// let a ={
+//     name:"sk"
+// }
+
+// let b ={
+//     age:"sks"
+// }
+
+// let c = Object.assign(a,b)
+
+// console.log(c)
+
