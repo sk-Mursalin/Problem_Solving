@@ -1139,11 +1139,11 @@
 // console.log(result)
 
 
-const file = document.querySelector("input");
+// const file = document.querySelector("input");
 
-file.addEventListener("change", (e) => {
-    console.log(e)
-})
+// file.addEventListener("change", (e) => {
+//     console.log(e)
+// })
 
 // const a = ()=> ("hello")
 // let b= a()
@@ -1337,3 +1337,12 @@ file.addEventListener("change", (e) => {
 
 // console.log(c)
 
+// const container = document.querySelectorAll("p");
+// const elementsArray = Array.from(container);
+
+// console.log(container)
+
+
+// elementsArray.map((el)=>{
+//     console.log(el.innerText)
+// })
