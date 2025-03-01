@@ -1349,14 +1349,14 @@
 
 // let arr = [1,2,3,4,-5,-2,-6,-1];
 
-let newArr = arr.filter((el)=> el<0).reduce((acc,curr)=>{
+// let newArr = arr.filter((el)=> el<0).reduce((acc,curr)=>{
     
-    if(acc>curr){
-        acc = acc
-    }else{
-        acc = curr
-    }
-    return acc
+//     if(acc>curr){
+//         acc = acc
+//     }else{
+//         acc = curr
+//     }
+//     return acc
      
-})
-console.log(newArr)
+// })
+// console.log(newArr)
