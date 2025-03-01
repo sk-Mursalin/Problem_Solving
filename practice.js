@@ -1346,3 +1346,17 @@
 // elementsArray.map((el)=>{
 //     console.log(el.innerText)
 // })
+
+// let arr = [1,2,3,4,-5,-2,-6,-1];
+
+let newArr = arr.filter((el)=> el<0).reduce((acc,curr)=>{
+    
+    if(acc>curr){
+        acc = acc
+    }else{
+        acc = curr
+    }
+    return acc
+     
+})
+console.log(newArr)
