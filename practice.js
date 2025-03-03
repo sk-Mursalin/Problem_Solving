@@ -1337,15 +1337,15 @@
 
 // console.log(c)
 
-const container = document.querySelectorAll("p");
-const elementsArray = Array.from(container);
+// const container = document.querySelectorAll("p");
+// const elementsArray = Array.from(container);
 
-console.log(container)
+// console.log(container)
 
 
-elementsArray.map((el)=>{
-    console.log(el.innerText)
-})
+// elementsArray.map((el)=>{
+//     console.log(el.innerText)
+// })
 
-let arr = [1,2,3,4,-5,-2,-6,-1];
+// let arr = [1,2,3,4,-5,-2,-6,-1];
 
