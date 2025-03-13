@@ -1302,19 +1302,19 @@
 //   getPersonInfo`${person} is ${age} years old`;
 
 
-function a() {
-    x = 2;
+// function a() {
+//     x = 2;
     
-    console.log(x)
-}
-a()
+//     console.log(x)
+// }
+// a()
 
-const a = {};
-const b = { key: 'b' };
-const c = { key: 'c' };
+// const a = {};
+// const b = { key: 'b' };
+// const c = { key: 'c' };
 
-a[b] = 123;
-a[c] = 456;
+// a[b] = 123;
+// a[c] = 456;
 
 // console.log(a)
 
@@ -1343,9 +1343,9 @@ a[c] = 456;
 // console.log(container)
 
 
-elementsArray.map((el)=>{
-    console.log(el.innerText)
-})
+// elementsArray.map((el)=>{
+//     console.log(el.innerText)
+// })
 
-let arr = [1,2,3,4,-5,-2,-6,-1];
+// let arr = [1,2,3,4,-5,-2,-6,-1];
 
