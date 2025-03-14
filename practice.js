@@ -1304,7 +1304,7 @@
 
 // function a() {
 //     x = 2;
-    
+
 //     console.log(x)
 // }
 // a()
@@ -1349,3 +1349,14 @@
 
 // let arr = [1,2,3,4,-5,-2,-6,-1];
 
+// function abc() {
+//     console.log(a);
+//     var a = 10;
+//     function def() {
+//         console.log(a);
+//         var a = 15;
+//     }
+//     def();
+// }
+
+// abc()
