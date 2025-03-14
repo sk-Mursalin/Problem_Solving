@@ -201,3 +201,13 @@
       p:nth-of-type(2){
         color: rebeccapurple;
       }
+
+      div{
+        font-size: 30px;
+      }
+
+      div p{
+        font-size: 40px;
+        width: 1em;
+
+      }
