@@ -1395,4 +1395,4 @@
 //     return (param !== 5 || "hello")
 // }
 
-console.log(a(6))
+// console.log(a(6))
