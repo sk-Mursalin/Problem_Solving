@@ -1361,3 +1361,38 @@
 
 // abc()
 
+// const form =document.querySelector("form");
+// form.addEventListener("submit",function(e){
+//     e.preventDefault()
+//     const user = this.elements[0].value
+//     console.dir(user)
+// })
+
+// console.dir(document.all)
+
+// async function a() {
+//     return("helo")
+// }
+
+// let b = a()
+// .then((el)=>console.log(el))
+
+// function a(){
+//     let x = 5;
+//     let z = 10;
+
+//     return function b(){
+//         console.log(x)
+//     }
+   
+// }
+
+//  const v = a();
+//  v()
+
+
+function a(param){
+    return (param !== 5 || "hello")
+}
+
+console.log(a(6))
