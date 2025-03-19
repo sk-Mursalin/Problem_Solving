@@ -1391,8 +1391,8 @@
 //  v()
 
 
-function a(param){
-    return (param !== 5 || "hello")
-}
+// function a(param){
+//     return (param !== 5 || "hello")
+// }
 
-console.log(a(6))
+// console.log(a(6))
