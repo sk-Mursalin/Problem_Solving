@@ -1343,11 +1343,11 @@
 // console.log(container)
 
 
-// elementsArray.map((el)=>{
-//     console.log(el.innerText)
-// })
+elementsArray.map((el)=>{
+    console.log(el.innerText)
+})
 
-// let arr = [1,2,3,4,-5,-2,-6,-1];
+let arr = [1,2,3,4,-5,-2,-6,-1];
 
 // function abc() {
 //     console.log(a);
