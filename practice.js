@@ -1400,12 +1400,12 @@
 
 function solution() {
     let array = [];
-    for (let i = 0; i < 1000; i++) {
+    for (let i = 1; i < 1000; i++) {
         if (i % 3 === 0) {
             array.push(i)
         }
         if (i % 5 === 0) {
-            if (array.indexOf(i === -1)) {
+            if (array.indexOf(i)===-1) {
                 array.push(i)
             }
 
@@ -1416,5 +1416,6 @@ function solution() {
     },0);
 
     return sum
+   
 }
 console.log(solution())
