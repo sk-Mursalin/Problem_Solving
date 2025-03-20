@@ -1343,11 +1343,11 @@
 // console.log(container)
 
 
-elementsArray.map((el)=>{
-    console.log(el.innerText)
-})
+// elementsArray.map((el) => {
+//     console.log(el.innerText)
+// })
 
-let arr = [1,2,3,4,-5,-2,-6,-1];
+// let arr = [1, 2, 3, 4, -5, -2, -6, -1];
 
 // function abc() {
 //     console.log(a);
@@ -1384,7 +1384,7 @@ let arr = [1,2,3,4,-5,-2,-6,-1];
 //     return function b(){
 //         console.log(x)
 //     }
-   
+
 // }
 
 //  const v = a();
@@ -1396,3 +1396,25 @@ let arr = [1,2,3,4,-5,-2,-6,-1];
 // }
 
 // console.log(a(6))
+
+
+function solution() {
+    let array = [];
+    for (let i = 0; i <= 1000; i++) {
+        if (i % 3 === 0) {
+            array.push(i)
+        }
+        if (i % 5 === 0) {
+            if (array.indexOf(i === -1)) {
+                array.push(i)
+            }
+
+        }
+    }
+    let sum = array.reduce((accm,curr)=>{
+        return accm+curr
+    },0);
+
+    return sum
+}
+console.log(solution())
