@@ -1398,32 +1398,34 @@
 // console.log(a(6))
 
 
-function solution() {
-    let array = [];
-    for (let i = 1; i < 1000; i++) {
-        if (i % 3 === 0) {
-            array.push(i)
-        }
-        if (i % 5 === 0) {
-            if (array.indexOf(i)===-1) {
-                array.push(i)
-            }
+// function solution() {
+//     let array = [];
+//     for (let i = 1; i < 1000; i++) {
+//         if (i % 3 === 0) {
+//             array.push(i)
+//         }
+//         if (i % 5 === 0) {
+//             if (array.indexOf(i)===-1) {
+//                 array.push(i)
+//             }
 
-        }
-    }
-    let sum = array.reduce((accm,curr)=>{
-        return accm+curr
-    },0);
+//         }
+//     }
+//     let sum = array.reduce((accm,curr)=>{
+//         return accm+curr
+//     },0);
 
-    return sum
+//     return sum
    
-}
-console.log(solution())
+// }
+// console.log(solution())
 
 // let a = {
 //     name:"sk Mursalin",
 //     age : 23
 // }
+
+
 
 
 // let b = Object.assign(a);
@@ -1433,3 +1435,7 @@ console.log(solution())
 
 // console.log(a===b)
 
+// const numbers = new Set([1, 2, 3, 3, 4, 4, 5]);
+// console.log([...numbers])
+let a = 100;
+console.log(a)
