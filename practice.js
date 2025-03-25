@@ -1437,5 +1437,4 @@
 
 // const numbers = new Set([1, 2, 3, 3, 4, 4, 5]);
 // console.log([...numbers])
-let b = 500;
-console.log(b);
+
