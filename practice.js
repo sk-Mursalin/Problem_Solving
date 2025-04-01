@@ -1429,11 +1429,11 @@
 
 
 
-let b = Object.assign(a);
-b.city = "kolkatas"
-console.log(b)
-console.log(a)
+// let b = Object.assign(a);
+// b.city = "kolkatas"
+// console.log(b)
+// console.log(a)
 
-console.log(a===b)
+// console.log(a===b)
 
 
