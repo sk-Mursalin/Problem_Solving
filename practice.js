@@ -1421,10 +1421,10 @@
 // }
 // console.log(solution())
 
-let a = {
-    name:"sk Mursalin",
-    age : 23
-}
+// let a = {
+//     name:"sk Mursalin",
+//     age : 23
+// }
 
 
 
