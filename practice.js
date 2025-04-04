@@ -1426,9 +1426,6 @@
 //     age : 23
 // }
 
-
-
-
 // let b = Object.assign(a);
 // b.city = "kolkatas"
 // console.log(b)
