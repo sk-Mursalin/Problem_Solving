@@ -1,4 +1,4 @@
-/* /* .circle{
+/* .circle{
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -199,7 +199,7 @@ div>h1 {
   color: red;
 }
 
-p:nth-of-type(2) {
+/* p:nth-of-type(2) {
   color: rebeccapurple;
 }
 
