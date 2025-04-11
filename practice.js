@@ -1419,12 +1419,7 @@
 //     return sum
    
 // }
-// console.log(solution())
 
-// let a = {
-//     name:"sk Mursalin",
-//     age : 23
-// }
 
 
 
