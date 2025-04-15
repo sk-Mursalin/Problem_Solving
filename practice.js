@@ -1412,13 +1412,13 @@
 //         }
 //     }
 
-    let sum = array.reduce((accm,curr)=>{
-        return accm+curr
-    },0);
+//     let sum = array.reduce((accm,curr)=>{
+//         return accm+curr
+//     },0);
 
-    return sum
+//     return sum
    
-
+// // 
 
 
 
