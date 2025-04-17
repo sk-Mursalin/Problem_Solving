@@ -1418,8 +1418,11 @@
 
     // return sum
 
-// // 
+function sayHi(){
+    console.log("hii")
+}
 
+sayHi()
 
 
 
