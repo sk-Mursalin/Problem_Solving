@@ -1422,7 +1422,7 @@ function sayHi(){
     console.log("hii")
 }
 
-sayHi()
+// sayHi();
 
 
 
