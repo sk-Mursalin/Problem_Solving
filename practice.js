@@ -1418,12 +1418,26 @@
 
     // return sum
 
-function sayHi(){
-    console.log("hii")
+// function sayHi(){
+//     console.log("hii")
+// }
+
+// sayHi();
+
+const twoSum = (nums,target)=>{
+    let sum = 0;
+    let find = [];
+
+    for(let i=0; i<nums.length; i++){
+        sum = sum +nums[i];
+        find.push(nums[i]);
+
+        if(sum === target){
+            console.log(nums.indexOf(find[0]),nums.indexOf(find[1]));
+        }
+    }
 }
 
-sayHi();
-
-
+twoSum([11,2,7,15],9);
 
 
