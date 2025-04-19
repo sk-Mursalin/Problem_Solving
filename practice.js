@@ -1400,7 +1400,7 @@
 
 // function solution() {
 //     let array = [];
-   //     for (let i = 1; i < 1000; i++) {
+//     for (let i = 1; i < 1000; i++) {
 //         if (i % 3 === 0) {
 //             array.push(i)
 //         }
@@ -1412,11 +1412,11 @@
 //         }
 //     }
 
-    // let sum = array.reduce((accm,curr)=>{
-    //     return accm+curr
-    // },0);
+// let sum = array.reduce((accm,curr)=>{
+//     return accm+curr
+// },0);
 
-    // return sum
+// return sum
 
 // function sayHi(){
 //     console.log("hii")
@@ -1424,20 +1424,18 @@
 
 // sayHi();
 
-const twoSum = (nums,target)=>{
-    let sum = 0;
-    let find = [];
-
-    for(let i=0; i<nums.length; i++){
-        sum = sum +nums[i];
-        find.push(nums[i]);
-
-        if(sum === target){
-            console.log(nums.indexOf(find[0]),nums.indexOf(find[1]));
+const twoSum = (nums, target) => {
+    for (let i = 0; i < nums.length; i++) {
+        for (let j = i++; j < nums.length; j++) {
+            if (nums[i] + nums[j] === target) {
+                console.log(nums.indexOf(nums[i]), nums.indexOf(nums[j]));
+            }
         }
     }
 }
 
-twoSum([11,2,7,15],9);
+twoSum([11, 2, 7, 15,48,55,3,8], 9);
+
+
 
 
