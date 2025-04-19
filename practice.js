@@ -1,4 +1,4 @@
-// 🧠 Question:
+// 🧠 Question1:
 // Given an array of integers, return the indices of the two numbers such that they add up to a specific target.
 
 const twoSum = (nums, target) => {
