@@ -13,3 +13,13 @@ Output: true
 
 Input: "race a car"  
 Output: false
+
+# 🧠 Question 3:
+Write a function that returns the first non-repeating character in a string. If there’s no non-repeating character, return null.
+Input: "leetcode"  
+Output: "l"
+
+Input: "aabbcc"  
+Output: null
+
+

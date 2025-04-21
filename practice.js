@@ -11,7 +11,7 @@ const twoSum = (nums, target) => {
     }
 }
 
-twoSum([11, 2, 7, 15,48,55,3,8], 9);
+twoSum([11, 2, 7, 15, 48, 55, 3, 8], 9);
 
 
 // 🧠 Question 2:
@@ -25,4 +25,32 @@ function isPalindrome(str) {
 
 isPalindrome("Doc, note, I dissent. A fast never prevents a fatness. I diet on cod."); // output : true
 isPalindrome("race a car") //output : false
+
+// 🧠 Question 3:
+// Write a function that returns the first non-repeating character in a string. If there’s no non-repeating character, return null.
+
+function firstNonRepeatingChar(str) {
+    const strToArr = str.split("");
+
+    const result = strToArr.reduce((acc, curr) => {
+        if (acc[curr]) {
+            acc[curr] = ++acc[curr]
+        }
+        else {
+            acc[curr] = 1
+        }
+        return acc
+    }, {});
+
+    for (let char of str) {
+        if (result[char] === 1) {
+            return char
+        }
+        return null
+    }
+}
+
+console.log(firstNonRepeatingChar("leetcode"));
+
+
 
