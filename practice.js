@@ -31,7 +31,7 @@ isPalindrome("race a car") //output : false
 
 function firstNonRepeatingChar(str) {
     const strToArr = str.split("");
-
+    console.log(strToArr);
     const result = strToArr.reduce((acc, curr) => {
         if (acc[curr]) {
             acc[curr] = ++acc[curr]
@@ -41,7 +41,6 @@ function firstNonRepeatingChar(str) {
         }
         return acc
     }, {});
-
     for (let char of str) {
         if (result[char] === 1) {
             return char
@@ -53,4 +52,19 @@ function firstNonRepeatingChar(str) {
 console.log(firstNonRepeatingChar("leetcode"));
 
 
+// 🧠 Question 4:
+// Write a function that returns the length of the longest substring without repeating characters.
+
+function lengthOfLongestSubstring(str) {
+    let nonRepeatingArray = [];
+    for (let i = 0; i < str.length; i++) {
+        // console.log(str[i])
+        if(nonRepeatingArray.indexOf(str[i])===-1){
+            nonRepeatingArray.push(str[i]);   
+        }
+    }
+    console.log(nonRepeatingArray);
+}
+
+lengthOfLongestSubstring("skmursalin");
 

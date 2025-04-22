@@ -22,4 +22,11 @@ Output: "l"
 Input: "aabbcc"  
 Output: null
 
+# 🧠 Question 4:
+Write a function that returns the length of the longest substring without repeating characters.
+Input: "abcabcbb"  
+Output: 3  
+Explanation: The answer is "abc", with the length of 3.
+
+
 
