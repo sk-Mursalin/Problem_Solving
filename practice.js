@@ -59,8 +59,8 @@ function lengthOfLongestSubstring(str) {
     let nonRepeatingArray = [];
     for (let i = 0; i < str.length; i++) {
         // console.log(str[i])
-        if(nonRepeatingArray.indexOf(str[i])===-1){
-            nonRepeatingArray.push(str[i]);   
+        if (nonRepeatingArray.indexOf(str[i]) === -1) {
+            nonRepeatingArray.push(str[i]);
         }
     }
     console.log(nonRepeatingArray);
@@ -68,3 +68,20 @@ function lengthOfLongestSubstring(str) {
 
 lengthOfLongestSubstring("skmursalin");
 
+// # 🧠 Question 5:
+// Given an array of integers nums, find the maximum product of any three numbers.
+
+function maximumProduct(array) {
+    let compareResult = 0;
+    for (let i = 0; i < array.length; i++) {
+        for (let j = i++; j < array.length;) {
+            let product = array[i] * array[j] * array[j++]
+            if (product > compareResult) {
+                compareResult = product
+            }
+        }
+    }
+    return compareResult
+};
+
+console.log(maximumProduct([10, 10, 5, 2]));

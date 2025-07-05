@@ -28,5 +28,13 @@ Input: "abcabcbb"
 Output: 3  
 Explanation: The answer is "abc", with the length of 3.
 
+# 🧠 Question 5:
+Given an array of integers nums, find the maximum product of any three numbers.
+Input: [1, 2, 3]  
+Output: 6
+
+Input: [-10, -10, 5, 2]  
+Output: 500
+
 
 
