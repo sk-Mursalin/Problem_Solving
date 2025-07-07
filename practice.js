@@ -86,5 +86,19 @@ function maximumProduct(array) {
     return compareResult
 };
 
-console.log(maximumProduct([10, 10, 5, 2, 8, 6, 9]));
+console.log(maximumProduct([10, 10, 5, 2, 8, 6, 9])); // Output: 900
 
+// or this approach ⬇
+
+function maximumProduct(nums) {
+    nums.sort((a, b) => a - b); 
+
+    const n = nums.length;
+
+    const case1 = nums[n - 1] * nums[n - 2] * nums[n - 3];
+    const case2 = nums[0] * nums[1] * nums[n - 1];
+
+    return Math.max(case1, case2);
+}
+
+console.log(maximumProduct([10, 10, 5, 2, 8, 6, 9])); // Output: 900
