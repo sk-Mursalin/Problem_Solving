@@ -74,14 +74,17 @@ lengthOfLongestSubstring("skmursalin");
 function maximumProduct(array) {
     let compareResult = 0;
     for (let i = 0; i < array.length; i++) {
-        for (let j = i++; j < array.length;) {
-            let product = array[i] * array[j] * array[j++]
-            if (product > compareResult) {
-                compareResult = product
+        for (let j = i + 1; j < array.length; j++) {
+            for (let k = j + 1; k < array.length; k++) {
+                let product = array[i] * array[j] * array[k]
+                if (product > compareResult) {
+                    compareResult = product
+                }
             }
         }
     }
     return compareResult
 };
 
-console.log(maximumProduct([10, 10, 5, 2]));
+console.log(maximumProduct([10, 10, 5, 2, 8, 6, 9]));
+
