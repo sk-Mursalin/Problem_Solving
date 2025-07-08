@@ -91,7 +91,7 @@ console.log(maximumProduct([10, 10, 5, 2, 8, 6, 9])); // Output: 900
 // or this approach ⬇
 
 function maximumProduct(nums) {
-    nums.sort((a, b) => a - b); 
+    nums.sort((a, b) => a - b);
 
     const n = nums.length;
 
@@ -102,3 +102,14 @@ function maximumProduct(nums) {
 }
 
 console.log(maximumProduct([10, 10, 5, 2, 8, 6, 9])); // Output: 900
+
+
+// 🧠 Question 6:
+// Given a list of daily temperatures, return a new list such that, for each day in the input, it tells you how many days you would have to wait until a warmer temperature.
+// If there is no future day for which this is possible, put 0 instead.
+
+function dailyTemperatures(temperatures) {
+   
+   
+}
+dailyTemperatures([73, 74, 75, 71, 69, 72, 76, 73]);

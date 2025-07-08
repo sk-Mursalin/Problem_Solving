@@ -36,5 +36,11 @@ Output: 6
 Input: [-10, -10, 5, 2]  
 Output: 500
 
+# 🧠 Question 6:
+Given a list of daily temperatures, return a new list such that, for each day in the input, it tells you how many days you would have to wait until a warmer temperature.
+If there is no future day for which this is possible, put 0 instead.
+
+Input: [73, 74, 75, 71, 69, 72, 76, 73]  
+Output: [1, 1, 4, 2, 1, 1, 0, 0]
 
 
