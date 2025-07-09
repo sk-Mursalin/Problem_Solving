@@ -111,8 +111,7 @@ console.log(maximumProduct([10, 10, 5, 2, 8, 6, 9])); // Output: 900
 function dailyTemperatures(temperatures) {
     for(let i = 0; i<temperatures.length; i++){
         for(let j = i+1; temperatures[j]>temperatures[i]; j++){
-            console.log(j-i);
-            
+            console.log(j-i); 
         }
     }
 }
