@@ -109,10 +109,16 @@ console.log(maximumProduct([10, 10, 5, 2, 8, 6, 9])); // Output: 900
 // If there is no future day for which this is possible, put 0 instead.
 
 function dailyTemperatures(temperatures) {
-    for(let i = 0; i<temperatures.length; i++){
-        for(let j = i+1; temperatures[j]>temperatures[i]; j++){
-            console.log(j-i); 
+    for (let i = 0; i < temperatures.length; i++) {
+        for (let j = i + 1; j < temperatures.length; j++) {
+            if (temperatures[j] > temperatures[i]){
+                console.log(j-i);
+                break;
+            }
+            continue;
+
         }
     }
 }
 dailyTemperatures([73, 74, 75, 71, 69, 72, 76, 73]);
+
