@@ -111,8 +111,8 @@ console.log(maximumProduct([10, 10, 5, 2, 8, 6, 9])); // Output: 900
 function dailyTemperatures(temperatures) {
     for (let i = 0; i < temperatures.length; i++) {
         for (let j = i + 1; j < temperatures.length; j++) {
-            if (temperatures[j] > temperatures[i]){
-                console.log(j-i);
+            if (temperatures[j] > temperatures[i]) {
+                console.log(j - i);
                 break;
             }
             continue;
@@ -122,3 +122,26 @@ function dailyTemperatures(temperatures) {
 }
 dailyTemperatures([73, 74, 75, 71, 69, 72, 76, 73]);
 
+// # 🧠 Question 7:
+// You are given an integer array nums. You are also given an integer k.
+
+// Your task is to return true if there are two distinct indices i and j in the array such that:
+
+// nums[i] === nums[j], and
+
+// the absolute difference between i and j is at most k.
+
+// Otherwise, return false.
+
+function containsNearbyDuplicate(nums, k) {
+    for (let i = 0; i < nums.length; i++) {
+        for (let j = i + 1; j < nums.length; j++) {
+            if ((nums[i] === nums[j]) && (j - i <= k)) {
+                return true
+            }
+        }
+    }
+    return false
+}
+
+console.log(containsNearbyDuplicate([1, 2, 3, 1], 3));

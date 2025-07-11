@@ -43,4 +43,24 @@ If there is no future day for which this is possible, put 0 instead.
 Input: [73, 74, 75, 71, 69, 72, 76, 73]  
 Output: [1, 1, 4, 2, 1, 1, 0, 0]
 
+# 🧠 Question 7:
+You are given an integer array nums. You are also given an integer k.
+
+Your task is to return true if there are two distinct indices i and j in the array such that:
+
+nums[i] === nums[j], and
+
+the absolute difference between i and j is at most k.
+
+Otherwise, return false.
+
+Input: nums = [1, 2, 3, 1], k = 3  
+Output: true
+
+Input: nums = [1, 0, 1, 1], k = 1  
+Output: true
+
+Input: nums = [1, 2, 3, 1, 2, 3], k = 2  
+Output: false
+
 
