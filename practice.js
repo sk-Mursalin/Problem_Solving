@@ -145,3 +145,23 @@ function containsNearbyDuplicate(nums, k) {
 }
 
 console.log(containsNearbyDuplicate([1, 2, 3, 1], 3));
+
+// 🧠 Question 8:
+// Given an array of integers nums, return all unique triplets in the array which sum up to zero.
+
+function threeSum(nums) {
+    let output = [];
+    for (let i = 0; i < nums.length; i++) {
+        for (let j = i + 1; j < nums.length; j++) {
+            for (let k = j + 1; k < nums.length; k++) {
+                if ((nums[i] + nums[j] + nums[k] === 0)) {
+                    output.push([nums[i], nums[j], nums[k]]);
+                    break;
+                }
+            }
+        }
+    }
+    return output;
+}
+
+console.log(threeSum([-1, 0, 1, 2, -1, -4]));

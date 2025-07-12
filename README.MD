@@ -63,4 +63,10 @@ Output: true
 Input: nums = [1, 2, 3, 1, 2, 3], k = 2  
 Output: false
 
+# 🧠 Question 8:
+Given an array of integers nums, return all unique triplets in the array which sum up to zero.
+
+Input: [-1, 0, 1, 2, -1, -4]  
+Output: [[-1, -1, 2], [-1, 0, 1]]
+
 
