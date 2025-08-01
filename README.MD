@@ -70,3 +70,16 @@ Input: [-1, 0, 1, 2, -1, -4]
 Output: [[-1, -1, 2], [-1, 0, 1]]
 
 
+# 🧠 Question 10:
+You are given an array heights representing the height of walls. Find two lines that together with the x-axis form a container, such that the container contains the most water. Return the maximum amount of water it can store.
+
+Input: [1,8,6,2,5,4,8,3,7]  
+Output: 49
+
+
+# 🧠 Question 11:
+Given an integer array nums, return the number of good pairs.
+A pair (i, j) is called good if nums[i] == nums[j] and i < j.
+
+Input: [1, 2, 3, 1, 1, 3]  
+Output: 4

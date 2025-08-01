@@ -90,18 +90,18 @@ console.log(maximumProduct([10, 10, 5, 2, 8, 6, 9])); // Output: 900
 
 // or this approach ⬇
 
-function maximumProduct(nums) {
-    nums.sort((a, b) => a - b);
+// function maximumProduct(nums) {
+//     nums.sort((a, b) => a - b);
 
-    const n = nums.length;
+//     const n = nums.length;
 
-    const case1 = nums[n - 1] * nums[n - 2] * nums[n - 3];
-    const case2 = nums[0] * nums[1] * nums[n - 1];
+//     const case1 = nums[n - 1] * nums[n - 2] * nums[n - 3];
+//     const case2 = nums[0] * nums[1] * nums[n - 1];
 
-    return Math.max(case1, case2);
-}
+//     return Math.max(case1, case2);
+// }
 
-console.log(maximumProduct([10, 10, 5, 2, 8, 6, 9])); // Output: 900
+// console.log(maximumProduct([10, 10, 5, 2, 8, 6, 9])); // Output: 900
 
 
 // 🧠 Question 6:
@@ -155,7 +155,7 @@ function threeSum(nums) {
         for (let j = i + 1; j < nums.length; j++) {
             for (let k = j + 1; k < nums.length; k++) {
                 if ((nums[i] + nums[j] + nums[k] === 0)) {
-                    output.push([nums[i], nums[j], nums[k]]);
+                    output.push([nums[i], nums[j], nums[k]].sort((a, b) => a - b));
                     break;
                 }
             }
@@ -165,3 +165,42 @@ function threeSum(nums) {
 }
 
 console.log(threeSum([-1, 0, 1, 2, -1, -4]));
+
+
+// # 🧠 Question 10:
+// You are given an array heights representing the height of walls. Find two lines that together with the x-axis form a container, such that the container contains the most water. Return the maximum amount of water it can store.
+
+function maxArea(heights) {
+    let totalWater = 0;
+    for (let i = 0; i < heights.length; i++) {
+        for (let j = i + 1; j < heights.length; j++) {
+            const width = j - i;
+            const min = Math.min(heights[i], heights[j]);
+            const height = min;
+            const result = width * height;
+            if (result > totalWater) {
+                totalWater = result
+            }
+        }
+    }
+}
+
+console.log(maxArea([1, 8, 6, 2, 5, 4, 8, 3, 7]));
+
+// #🧠 Question 11:
+// Given an integer array nums, return the number of good pairs.
+// A pair (i, j) is called good if nums[i] == nums[j] and i < j.
+
+function numIdenticalPairs(nums) {
+    let goodPairs = 0;
+    for (let i = 0; i < nums.length; i++) {
+        for (let j = i + 1; j < nums.length; j++) {
+            if (nums[i] == nums[j] && i < j){
+                goodPairs += 1;
+            }
+        }
+    }
+    return goodPairs
+}
+
+console.log(numIdenticalPairs([1, 2, 3, 1, 1, 3]));
