@@ -195,7 +195,7 @@ function numIdenticalPairs(nums) {
     let goodPairs = 0;
     for (let i = 0; i < nums.length; i++) {
         for (let j = i + 1; j < nums.length; j++) {
-            if (nums[i] == nums[j] && i < j){
+            if (nums[i] == nums[j] && i < j) {
                 goodPairs += 1;
             }
         }
@@ -204,3 +204,32 @@ function numIdenticalPairs(nums) {
 }
 
 console.log(numIdenticalPairs([1, 2, 3, 1, 1, 3]));
+
+// 🧠 Question 12 (New):
+// You are given an array of integers nums. Return the length of the longest consecutive sequence of numbers (regardless of order).
+
+function longestConsecutive(nums) {
+    const numSet = new Set(nums);
+    let maxLength = 0;
+
+    for (let num of numSet) {
+        if (!numSet.has(num - 1)) {
+            let currentNum = num;
+            let length = 1;
+
+            while (numSet.has(currentNum + 1)) {
+                currentNum++;
+                length++;
+            }
+
+            if (length > maxLength) {
+                maxLength = length;
+            }
+        }
+    }
+
+    return maxLength;
+}
+
+
+console.log(longestConsecutive([100, 4, 200, 1, 3, 2]));

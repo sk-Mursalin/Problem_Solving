@@ -83,3 +83,10 @@ A pair (i, j) is called good if nums[i] == nums[j] and i < j.
 
 Input: [1, 2, 3, 1, 1, 3]  
 Output: 4
+
+# 🧠 Question 12 (New):
+You are given an array of integers nums. Return the length of the longest consecutive sequence of numbers (regardless of order).
+
+Input: [100, 4, 200, 1, 3, 2]  
+Output: 4  
+// The longest consecutive sequence is [1, 2, 3, 4]
