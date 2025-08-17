@@ -233,3 +233,38 @@ function longestConsecutive(nums) {
 
 
 console.log(longestConsecutive([100, 4, 200, 1, 3, 2]));
+
+// # 🧠 Question 13 (New):
+// insert a element in an array without using inbuilt method
+
+function insert(arr) {
+    let insertElement = 8;
+    let positioin = 2;
+    for (let i = arr.length - 1; i >= 0; i--) {
+        if (i >= positioin) {
+            arr[i + 1] = arr[i]
+        }
+        if (i == positioin) {
+            arr[i] = insertElement
+        }
+    }
+    return arr
+}
+
+console.log(insert([2, 3, 4, 5, 6]));
+
+// # 🧠 Question 14  (New):
+// delete an element in an array without using inbuilt method
+function deltetioin(arr) {
+    let positioin = 2;
+    for (let i = positioin; i < arr.length - 1; i++) {
+        arr[i] = arr[i + 1]
+    }
+    arr.length = arr.length - 1
+    return arr
+}
+
+console.log(deltetioin([7, 9, 6, 2, 4]));
+
+
+

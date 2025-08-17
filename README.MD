@@ -89,4 +89,17 @@ You are given an array of integers nums. Return the length of the longest consec
 
 Input: [100, 4, 200, 1, 3, 2]  
 Output: 4  
-// The longest consecutive sequence is [1, 2, 3, 4]
+// The longest consecutive sequence is [1, 2, 3, 4] 
+
+# DSA:
+
+# 🧠 Question 13 (New):
+insert a element in an array without using inbuilt method
+Input: [100, 4, 200, 1, 3, 2]
+Output: Input: [100, 4, 5, 200, 1, 3, 2]
+
+
+# 🧠 Question 14  (New):
+delete an element in an array without using inbuilt method
+Input: [100, 4, 5, 200, 1, 3, 2]
+Output: Input: [100, 4, 200, 1, 3, 2]
