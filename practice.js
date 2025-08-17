@@ -268,3 +268,20 @@ console.log(deltetioin([7, 9, 6, 2, 4]));
 
 
 
+function mergeArray() {
+    let arr1 = [1, 2, 3, 4, 5]
+    let arr2 = [6, 7, 8, 9, 10]
+    let combineArray = []
+
+    for (let i = 0; i < arr1.length; i++) {
+        combineArray[combineArray.length] = arr1[i]
+    }
+
+    for (let i = 0; i < arr2.length; i++) {
+        combineArray[combineArray.length] = arr2[i]
+    }
+
+    return combineArray
+}
+
+console.log(mergeArray());

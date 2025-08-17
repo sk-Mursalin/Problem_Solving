@@ -96,10 +96,17 @@ Output: 4
 # 🧠 Question 13 (New):
 insert a element in an array without using inbuilt method
 Input: [100, 4, 200, 1, 3, 2]
-Output: Input: [100, 4, 5, 200, 1, 3, 2]
+Output: [100, 4, 5, 200, 1, 3, 2]
 
 
 # 🧠 Question 14  (New):
 delete an element in an array without using inbuilt method
 Input: [100, 4, 5, 200, 1, 3, 2]
-Output: Input: [100, 4, 200, 1, 3, 2]
+Output: [100, 4, 200, 1, 3, 2]
+
+# 🧠 Question 15  (New):
+
+merge two array without using inbuilt method
+
+Input: [1, 2, 3, 4, 5] , [6, 7, 8, 9, 10]
+Output: [1, 2, 3, 4, 5,6, 7, 8, 9, 10]
