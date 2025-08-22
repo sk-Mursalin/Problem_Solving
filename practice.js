@@ -267,6 +267,8 @@ function deltetioin(arr) {
 console.log(deltetioin([7, 9, 6, 2, 4]));
 
 
+// # 🧠 Question 15  (New):
+// merge two array without using inbuilt method
 
 function mergeArray() {
     let arr1 = [1, 2, 3, 4, 5]
@@ -285,3 +287,22 @@ function mergeArray() {
 }
 
 console.log(mergeArray());
+
+// # 🧠 Question 16  (New):
+// reverse a array without creating a  new  array
+
+function reverse() {
+    let arr = [1, 2, 3, 4, 5]
+    let ver = 1
+    for (let i = 0; i < arr.length / 2; i++) {
+        let temp = arr[i]
+        arr[i] = arr[arr.length - ver]
+        arr[arr.length - ver] = temp
+        ver = ver + 1
+
+
+    }
+    return arr
+}
+
+console.log(reverse());

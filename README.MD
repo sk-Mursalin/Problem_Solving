@@ -105,8 +105,13 @@ Input: [100, 4, 5, 200, 1, 3, 2]
 Output: [100, 4, 200, 1, 3, 2]
 
 # 🧠 Question 15  (New):
-
 merge two array without using inbuilt method
 
 Input: [1, 2, 3, 4, 5] , [6, 7, 8, 9, 10]
 Output: [1, 2, 3, 4, 5,6, 7, 8, 9, 10]
+
+# 🧠 Question 16  (New):
+reverse a array without creating a  new  array
+
+Input: [1, 2, 3, 4, 5] 
+Output: [5, 4, 3, 2, 1]
