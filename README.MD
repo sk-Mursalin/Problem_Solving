@@ -115,3 +115,9 @@ reverse a array without creating a  new  array
 
 Input: [1, 2, 3, 4, 5] 
 Output: [5, 4, 3, 2, 1]
+
+# 🧠 Question 17  (New):
+sort  an array 
+
+Input: [5, 2, 4, 3, 1] 
+Output: [1, 2, 3, 4, 5]
