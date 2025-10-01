@@ -354,10 +354,10 @@ let n = 5;
 
 function starPattern() {
 
-    for (let i = 4; i < n && i >= 0; i--) {
+    for (let i = 0; i < n; i++) {
         let row = ""
 
-        for (let j = 0; j < i + 1; j++) {
+        for (let j = 0; j < n-i; j++) {
             row = row + (j + 1)
         }
         console.log(row);
