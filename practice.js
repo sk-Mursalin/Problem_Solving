@@ -326,3 +326,44 @@ function sort() {
 }
 
 console.log(sort());
+
+
+function secondLargestNumber(arr) {
+    let firstLargest = -Infinity;
+    let secondLargest = -Infinity;
+
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > firstLargest) {
+            secondLargest = firstLargest
+            firstLargest = arr[i]
+        }
+        else if (arr[i] > secondLargest) {
+            secondLargest = arr[i]
+        }
+    }
+
+    return secondLargest
+}
+
+const arr = [1, 5, 4, 6, 2, 8, 9]
+
+console.log(secondLargestNumber(arr));
+
+
+let n = 5;
+
+function starPattern() {
+
+    for (let i = 4; i < n && i >= 0; i--) {
+        let row = ""
+
+        for (let j = 0; j < i + 1; j++) {
+            row = row + (j + 1)
+        }
+        console.log(row);
+    }
+
+
+}
+
+starPattern()
