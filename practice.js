@@ -357,7 +357,7 @@ function starPattern() {
     for (let i = 0; i < n; i++) {
         let row = ""
 
-        for (let j = 0; j < n-i; j++) {
+        for (let j = 0; j < n - i; j++) {
             row = row + (j + 1)
         }
         console.log(row);
@@ -367,3 +367,13 @@ function starPattern() {
 }
 
 starPattern()
+
+function reverseStr(str) {
+    let newStr = ""
+    for (let i = str.length - 1; i >= 0; i--) {
+        newStr = newStr + str[i]
+    }
+    return newStr
+}
+
+console.log(reverseStr("mursalin"));
