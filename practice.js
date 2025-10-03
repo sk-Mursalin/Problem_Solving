@@ -327,6 +327,8 @@ function sort() {
 
 console.log(sort());
 
+//  # 🧠 Question 18
+// secoend largest number in an array
 
 function secondLargestNumber(arr) {
     let firstLargest = -Infinity;
@@ -350,6 +352,9 @@ const arr = [1, 5, 4, 6, 2, 8, 9]
 console.log(secondLargestNumber(arr));
 
 
+//  # 🧠 Question 19
+// star pattern
+
 let n = 5;
 
 function starPattern() {
@@ -368,6 +373,8 @@ function starPattern() {
 
 starPattern()
 
+//  # 🧠 Question 20
+// reverse a string
 function reverseStr(str) {
     let newStr = ""
     for (let i = str.length - 1; i >= 0; i--) {
@@ -378,7 +385,8 @@ function reverseStr(str) {
 
 console.log(reverseStr("mursalin"));
 
-
+//  # 🧠 Question 21
+// count of digit in a number
 function digit(number) {
     if (number == 0) return 1
     number = Math.abs(number)
@@ -392,3 +400,26 @@ function digit(number) {
 }
 
 console.log(digit(259));
+
+//  # 🧠 Question 22
+// palindrome of an number
+
+function numberPalundrome(number) {
+    let orginalNumber = number
+    let reverse = 0
+    while (number > 0) {
+        let lastDigit = number % 10
+        reverse = (10 * reverse) + lastDigit
+        number = Math.floor(number / 10)
+        console.log(number);
+    }
+    if (reverse == orginalNumber) {
+        return true
+    }
+    else {
+        return false
+    }
+}
+
+
+console.log(numberPalundrome(1215));
