@@ -423,3 +423,29 @@ function numberPalundrome(number) {
 
 
 console.log(numberPalundrome(1215));
+
+
+//  # 🧠 Question 23
+// reverse of an number
+
+function reverseInterger(number) {
+
+    let reverse = 0
+    let isNegetive = false
+    if (number < 0) {
+        number = Math.abs(number)
+        isNegetive = true
+    }
+    while (number > 0) {
+        let lastDigit = number % 10
+        reverse = (10 * reverse) + lastDigit
+        number = Math.floor(number / 10)
+    }
+    if(isNegetive){
+        return -reverse
+    }
+    return reverse
+}
+
+
+console.log(reverseInterger(-1));
