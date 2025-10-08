@@ -470,3 +470,16 @@ function removeDuplicates(arr) {
 }
 
 console.log(removeDuplicates([2, 5, 8, 2, 9, 8]));
+
+
+function sortRemoveDuplicates(arr) {
+    let newArray = [arr[0]]
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > newArray[newArray.length - 1]) {
+            newArray[newArray.length] = arr[i]
+        }
+    }
+    return newArray
+}
+
+console.log(sortRemoveDuplicates([-1, 0, 0, 1, 2, 2, 3, 5, 5, 6]));
