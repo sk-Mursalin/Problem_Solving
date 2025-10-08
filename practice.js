@@ -441,7 +441,7 @@ function reverseInterger(number) {
         reverse = (10 * reverse) + lastDigit
         number = Math.floor(number / 10)
     }
-    if(isNegetive){
+    if (isNegetive) {
         return -reverse
     }
     return reverse
@@ -449,3 +449,24 @@ function reverseInterger(number) {
 
 
 console.log(reverseInterger(-1));
+
+
+function removeDuplicates(arr) {
+    let newArray = [];
+
+    for (let i = 0; i < arr.length; i++) {
+        let isDuplicate = false;
+        for (let j = 0; j < newArray.length; j++) {
+            if (newArray[j] === arr[i]) {
+                isDuplicate = true
+                break;
+            }
+        }
+        if (!isDuplicate) {
+            newArray[newArray.length] = arr[i]
+        }
+    }
+    return newArray
+}
+
+console.log(removeDuplicates([2, 5, 8, 2, 9, 8]));
