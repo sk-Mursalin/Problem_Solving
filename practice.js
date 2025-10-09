@@ -483,3 +483,14 @@ function sortRemoveDuplicates(arr) {
 }
 
 console.log(sortRemoveDuplicates([-1, 0, 0, 1, 2, 2, 3, 5, 5, 6]));
+
+var removeDuplicates = function (nums) {
+    let indexTracker = 0;
+    for (let i = 0; i < nums.length; i++) {
+        if (nums[i] > nums[indexTracker]) {
+            indexTracker = indexTracker + 1
+            nums[indexTracker] = nums[i]
+        }
+    }
+    return indexTracker + 1
+};
