@@ -494,3 +494,17 @@ var removeDuplicates = function (nums) {
     }
     return indexTracker + 1
 };
+
+
+var removeElement = function (nums, val) {
+    let indexTracker = 0;
+    for (let i = 0; i < nums.length; i++) {
+        if (nums[i] !== val) {
+            nums[indexTracker] = nums[i]
+            indexTracker = indexTracker + 1
+        }
+    }
+    return indexTracker
+};
+
+console.log(removeElement([3, 2, 2, 3], 3));
